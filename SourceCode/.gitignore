@@ -1,0 +1,21 @@
+## Visual Studio / .NET
+.vs/
+bin/
+obj/
+[Dd]ebug/
+[Rr]elease/
+*.user
+*.suo
+*.userprefs
+*.rsuser
+*.log
+*.pdb
+.idea/
+## Dữ liệu cục bộ
+*.bak
+*.mdf
+*.ldf
+PharmaCare/Images/
+## Hệ điều hành
+Thumbs.db
+.DS_Store
