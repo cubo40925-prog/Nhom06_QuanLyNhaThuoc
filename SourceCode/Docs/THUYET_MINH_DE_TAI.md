@@ -47,16 +47,21 @@ Quan hệ: một nhóm thuốc có nhiều thuốc; một thuốc có nhiều l�
 - Lịch sử phiếu nhập chỉ dành cho Quản lý kho (quyền `NhapKho`); Dược sĩ chỉ xem hóa đơn.
 
 ## 7. Kiểm thử
-Toàn bộ test case (20 ca, TC01–TC20) nằm ở `Docs/TestCases.md`; bảng tóm tắt theo chức năng ở `Docs/BAO_CAO_KIEM_THU.md`. Không lặp lại bảng ở đây để tránh lệch số liệu.
+Toàn bộ test case (20 ca, TC01–TC20) nằm ở `Docs/TestCases.md` (và `TestCases/TestCase.xlsx`). Không lặp lại bảng ở đây để tránh lệch số liệu.
 
 ## 8. Hạn chế và hướng phát triển
 Bản đồ án dùng tài khoản demo cục bộ (mật khẩu demo được ghi trong tài liệu); phân hệ nhóm thuốc/nhà cung cấp hiện tập trung tra cứu (chỉ cho đổi trạng thái kê đơn); chưa có xuất Excel, quản lý người dùng, nhật ký thao tác và kiểm thử tự động. Có thể phát triển thêm CRUD nhóm thuốc/nhà cung cấp, báo cáo theo tháng, quản lý tài khoản và bộ unit test cho `BanHangService` (đã cho phép tiêm `Func<DateTime>` để giả lập ngày).
 
 ## 9. Thông tin nhóm
-- Tên đề tài: Quản lý nhà thuốc
-- Lớp: ........................................
-- Giảng viên hướng dẫn: ........................................
-- Thành viên và phần trăm đóng góp: bổ sung theo thực tế nhóm.
+- Tên đề tài: Quản lý nhà thuốc (PharmaCare)
+- Môn học: 2611COMP101904 – Lập trình trên Windows
+- Giảng viên hướng dẫn: Lê Thanh Thoại
+- Nhóm: 06
+- Thành viên:
+  - Nguyễn Đan Trường – 51.01.104.110 – LemAlreadyTaken
+  - Phùng Đăng Khoa – 51.01.104.046 – khoaphung1206-hcmue
+  - Nguyễn Trọng Đức Hậu – 51.01.104.025 – duchau169
+  - Lê Quốc Tuấn – 51.01.104.115 – cubo40925-prog
 
 
 ## Cấu hình kết nối SQL Server trên máy phát triển

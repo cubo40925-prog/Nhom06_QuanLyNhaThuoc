@@ -1,6 +1,8 @@
-﻿PHARMACARE - QUẢN LÝ NHÀ THUỐC (Đề tài 14, COMP1019 Lập trình trên Windows)
-Nhóm: [điền số nhóm]   Thành viên: [điền họ tên + MSSV 4 bạn]
-GitHub: [điền link repo]
+﻿PHARMACARE - QUẢN LÝ NHÀ THUỐC (Đề tài 14, 2611COMP101904 – Lập trình trên Windows)
+Nhóm: 06   Giảng viên hướng dẫn: Lê Thanh Thoại
+Thành viên: Nguyễn Đan Trường (51.01.104.110), Phùng Đăng Khoa (51.01.104.046),
+            Nguyễn Trọng Đức Hậu (51.01.104.025), Lê Quốc Tuấn (51.01.104.115)
+GitHub: https://github.com/cubo40925-prog/Nhom06_QuanLyNhaThuoc
 
 1. MÔI TRƯỜNG
 - Windows 10/11, Visual Studio 2026 (workload ".NET desktop development"), .NET 10 SDK.
@@ -8,11 +10,12 @@ GitHub: [điền link repo]
 - Thư viện: Microsoft.Data.SqlClient (NuGet, tự khôi phục khi build).
 
 2. CẤU TRÚC THƯ MỤC NỘP
-SourceCode/   mã nguồn C# (mở PharmaCare.sln) và thư mục Docs
+SourceCode/   mã nguồn C# (mở PharmaCare.sln) và thư mục Docs (tài liệu bổ sung)
 Database/     01_CreateDatabase.sql, 02_InsertSampleData.sql, 03_StoredProcedures.sql,
               04_BackupDatabase.sql, 05_ResetDemo.sql, PharmaCareDB.bak (nếu có)
-Report/       BaoCao.pdf
-Screenshots/  ảnh chụp màn hình và minh chứng test
+Report/       PharmaCare_Report.pdf (báo cáo), PharmaCare_Report_latex.zip (mã LaTeX),
+              PharmaCare_Slides.pptx (slide thuyết trình)
+Screenshots/  TestCases/TC01.png ... TC20.png (minh chứng test)
 TestCases/    TestCase.xlsx
 README.txt    file này
 

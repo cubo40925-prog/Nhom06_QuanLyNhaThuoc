@@ -4,7 +4,7 @@
 Cột "Thực tế" và "Đạt" đã được điền sau khi chạy thử trên máy nhóm.
 
 > **Cách chạy:** trên CSDL mới (đóng ứng dụng, chạy `Database/05_ResetDemo.sql`, mở lại ứng dụng), chạy lần lượt từ TC01 đến TC20. `MED011` được tạo ở TC05, sửa ở TC08 và xóa ở TC09. TC16 chỉ kiểm tra giỏ nên **không bấm Thanh toán**.
-> Dữ liệu mẫu có hạn dùng tính theo ngày chạy script (`LOT-OR-001` còn 18 ngày), nên hãy reset ngay trước khi test. Bộ ca khó hơn (rollback, lỗi máy in, FEFO nhiều lô...) nằm ở `Docs/KiemThuMoRong.md` (không bắt buộc).
+> Dữ liệu mẫu có hạn dùng tính theo ngày chạy script (`LOT-OR-001` còn 18 ngày), nên hãy reset ngay trước khi test.
 
 | ID | Chức năng | Dữ liệu / Thao tác | Kết quả mong đợi | Thực tế | Đạt |
 |----|-----------|--------------------|------------------|---------|-----|
