@@ -21,7 +21,7 @@ README.txt    file này
 
 3. CÁCH CHẠY (nhanh nhất)
 1) Mở SourceCode/PharmaCare.sln bằng Visual Studio.
-2) Chọn cấu hình Release, nhấn F5.
+2) Chọn cấu hình Release, nhấn Ctrl+F5 (Start Without Debugging).
 3) Ứng dụng tự dò SQL Server (.\SQLEXPRESS, (localdb)\MSSQLLocalDB, ., tên máy) và tự tạo CSDL
    PharmaCareDB + dữ liệu mẫu từ 3 script nhúng sẵn. Nếu lỗi, bấm "Chi tiết lỗi" ở màn hình đăng nhập.
 4) Chuỗi kết nối nằm ở SourceCode/PharmaCare/AppConfig.cs (Windows Authentication,
