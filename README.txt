@@ -12,7 +12,7 @@ GitHub: https://github.com/cubo40925-prog/Nhom06_QuanLyNhaThuoc
 2. CẤU TRÚC THƯ MỤC NỘP
 SourceCode/   mã nguồn C# (mở PharmaCare.sln) và thư mục Docs (tài liệu bổ sung)
 Database/     01_CreateDatabase.sql, 02_InsertSampleData.sql, 03_StoredProcedures.sql,
-              04_BackupDatabase.sql, 05_ResetDemo.sql, PharmaCareDB.bak (nếu có)
+              04_BackupDatabase.sql, 05_ResetDemo.sql, PharmaCareDB.bak (bản sao lưu CSDL với dữ liệu mẫu)
 Report/       PharmaCare_Report.pdf (báo cáo), PharmaCare_Report_latex.zip (mã LaTeX),
               PharmaCare_Slides.pptx (slide thuyết trình)
 Screenshots/  TestCases/TC01.png ... TC20.png (minh chứng test)
@@ -33,7 +33,7 @@ README.txt    file này
 
 5. CƠ SỞ DỮ LIỆU (chạy thủ công trong SSMS nếu cần, theo thứ tự)
 1) 01_CreateDatabase.sql  2) 02_InsertSampleData.sql  3) 03_StoredProcedures.sql
-- Khôi phục từ file .bak: RESTORE DATABASE PharmaCareDB FROM DISK = N'<đường dẫn>\PharmaCareDB.bak' WITH REPLACE;
+- Khôi phục từ file .bak: chạy PHẦN 2 trong Database/04_BackupDatabase.sql (đổi đường dẫn tới file .bak).
 - Đặt lại dữ liệu mẫu trước khi demo/test: đóng ứng dụng, chạy 05_ResetDemo.sql, mở lại ứng dụng.
 
 6. KIỂM THỬ
